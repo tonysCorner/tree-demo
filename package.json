@@ -1,0 +1,18 @@
+{
+  "name": "tree-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@antv/g6": "^2.1.1-beta",
+    "g6-for-react": "^0.1.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
