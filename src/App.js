@@ -6,7 +6,9 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: {}
+            data: {
+                roots:[]
+            }
         }
     };
 
@@ -33,9 +35,6 @@ class App extends Component {
 
     render() {
         const data = this.state.data;
-        if (JSON.stringify(data) === '{}') {
-            return '';
-        }
         return (
             <div className="App">
                 <Tree fitView="cc" animate={true} height={window.innerHeight} data={data}></Tree>
